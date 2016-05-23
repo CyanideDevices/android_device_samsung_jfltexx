@@ -4,7 +4,7 @@ $(call inherit-product, device/samsung/jfltexx/full_jfltexx.mk)
 $(call inherit-product, vendor/cyanide/config/nfc_enhanced.mk)
 
 # Inherit some common Cyanide stuff.
-$(call inherit-product, vendor/cyanide/config/common_full_phone.mk)
+$(call inherit-product, vendor/cyanide/config/common.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
   PRODUCT_NAME=jfltexx \
