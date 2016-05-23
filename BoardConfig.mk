@@ -28,3 +28,9 @@ include device/samsung/jf-common/BoardConfigCommon.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jfltexx,i9505,GT-I9505,jgedlte,i9505g,GT-I9505G,jflte
+
+#Cyanide TC
+TARGET_CYANIDE_ROM=4.9  
+TARGET_NDK_CYANIDE_ROM=4.9  
+TARGET_CYANIDE_ARM=4.8 
+
